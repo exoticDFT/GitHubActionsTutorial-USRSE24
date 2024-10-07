@@ -1,8 +1,11 @@
 name: Python Environment
 
 on:
+  push:
+    branches:
+    - main
   # To run manually
-  workflow_dispatch
+  workflow_dispatch:
 
 jobs:
   setup:
